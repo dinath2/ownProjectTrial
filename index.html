@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Messing around</title>
     <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
@@ -12,12 +12,18 @@
 
 <script src="js/model.js"></script>
 <script src="js/homeView.js"></script>
+<script src="js/marmaladeSheet.js"></script>
 
 </body>
 
 <script>
+
+let contentDiv = document.getElementById('content');
+
 function updateView() {
     const page = model.currentPage;
+    if (page === 'home') homeView();
+            else if (page === 'sheet') sheetView();
 }
 
 function changePage() {
