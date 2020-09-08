@@ -11,6 +11,6 @@ function sheetView() {
             <div id="statInfo"></div>
         </div>
         
-    </div>;`
+    </div>`
 
 }

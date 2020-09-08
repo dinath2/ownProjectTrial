@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Messing around</title>
+    <title>Testing</title>
+    <script defer src="js/model.js"></script>
+    <script defer src="js/homeView.js"></script>
+    <script defer src="js/marmaladeSheet.js" onload="updateView()"></script>
     <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
 
-<div id="content"></div>
-
-<script src="js/model.js"></script>
-<script src="js/homeView.js"></script>
-<script src="js/marmaladeSheet.js"></script>
+<div id="content"></div> 
+<div>Test hei</div>
 
 </body>
 
@@ -20,13 +18,17 @@
 
 let contentDiv = document.getElementById('content');
 
+
 function updateView() {
     const page = model.currentPage;
-    if (page === 'home') homeView();
-    else if (page === 'sheet') sheetView();
+    if (page === 'home') {
+        homeView();
+    } else if (page === 'sheet') {
+        sheetView();
+    }
 }
 
-function changePage() {
+function changePage(page) {
     model.currentPage = page;
     updateView();
 }
