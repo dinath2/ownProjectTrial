@@ -6,7 +6,10 @@ function sheetView() {
     contentDiv.innerHTML = `
     <div id="sheetContent">
 
-        <div id="infoGrid"></div>
+        <div id="infoGrid">
+            <div id="charInfo"></div>
+            <div id="statInfo"></div>
+        </div>
         
     </div>;`
 

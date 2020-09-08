@@ -10,9 +10,4 @@ const model = {
         {id: '1' [ { STR:'8', DEX: '16', CON: '15', INT: '19', WIS: '12', CHA: '14'} ] },
         {id: '2' [ { STR:'10', DEX: '10', CON: '10', INT: '10', WIS: '10', CHA: '10'} ] }
     ],
-
-    profiency = [
-        {},
-    ]
-
 }
