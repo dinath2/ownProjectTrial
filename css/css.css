@@ -1,6 +1,6 @@
 #frontContent {
-    background: url("https://i.imgur.com/5JBRgAB.png")  no-repeat fixed;
-    background-size: cover;
+    background: url("https://i.imgur.com/5JBRgAB.png")  no-repeat center fixed;
+    width: 1000px;
 }
 
 #marmaladeButton {
@@ -14,5 +14,5 @@
 
 #sheetContent {
     background: url("https://i.imgur.com/DxJQmlF.jpg")  no-repeat fixed;
-    background-size: cover;
+    width: 1000px;
 }
